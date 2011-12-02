@@ -1,0 +1,17 @@
+*.dbmdl
+*.user
+*.suo
+*.cache
+*.log
+*.log.*
+obj
+bin
+ErrorLogs
+Packages
+*~
+*.swp
+_ReSharper*
+*.db
+*.orig
+*.rej
+CI
