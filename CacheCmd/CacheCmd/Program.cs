@@ -53,7 +53,8 @@ namespace CacheCmd
         static void Main(string[] args)
         {
             var cache = CacheUtil.GetCache("default");
-            var changeAuthor = args[0] ?? "";
+
+            var changeAuthor = (args.Count() > 0) ? args[0] : "";
 
             cache.AddCacheLevelCallback(DataCacheOperations.ReplaceItem |
                                         DataCacheOperations.AddItem |
