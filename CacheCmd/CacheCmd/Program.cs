@@ -4,6 +4,12 @@ using System.Linq;
 using System.Text;
 using Microsoft.ApplicationServer.Caching;
 
+////////////////////////////////////////////////////
+// Simple example of getting a cache reference and 
+// add/removing/updating items while listening
+// for these events on the cache.
+////////////////////////////////////////////////////
+
 namespace CacheCmd
 {
 
